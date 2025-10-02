@@ -1,106 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jeylo Tangaro Baoit | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="manifest" href="/site.webmanifest">
+    <title>Jeylo Baoit | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="hero fade-in">
-    <div class="container">
-      <img src="assets/profile.png" alt="Jeylo Tangaro Baoit" class="profile-pic" />
-      <h1>Jeylo Tangaro Baoit</h1>
-      <p>Developer • Designer • Creative</p>
-      <div class="button-group">
-        <a href="https://github.com/NightCode101" class="btn">View Projects</a>
-        <a href="assets/Jeylo_Tangaro_Resume.pdf" download class="btn outline">Download Resume</a>
-      </div>
-    </div>
-  </header>
+    <main>
+        <nav class="navbar">
+            <ul class="nav-btn">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+        </nav>
+        
+        <header class="hero">
+            <div class="container">
+                <img src="assets/profile.png" alt="Jeylo tangaro Baoit" class="profile-pic">
+                <h1>Jeylo Tangaro Baoit</h1>
+                <p style="padding: 0.2rem;">Developer • Designer • Creative</p>
+                <div class="button-group">
+                    <a href="https://github.com/NightCode101" class="btn">Github Profile</a>
+                    <a href="assets/resume.pdf" class="btn outline" download>Download Resume</a>
+                </div>
+            </div>
+        </header>
 
-  <section id="about" class="section fade-in">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I'm a second-year BSIT student from Cagayan State University – Piat Campus. I enjoy working on mobile apps and tools that solve real problems. I'm a fast learner, and I love Android development especially building apps using Firebase, VS Code, and Android Studio. Whether it’s fixing a bug or designing a clean UI, I focus on keeping things simple and working well.</p>
-    </div>
-  </section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p class="info">I'm a Second-year BSIT Student from Cagayan State University - Piat Campus. I enjoy
+                    working on mobile apps and tools that solve real problems. I'm a faster learner, and I love Android
+                    Development especially building apps using Firebase, VS Code, and Android Studio. Whether it's
+                    fixing a bug or designing a clean UI, I focus on keeping things simple and workinng well.</p>
+            </div>
+        </section>
+        
+        <section id="socials" class="section">
+            <div class="container">
+                <h2>Socials</h2>
+                <div class="icons-list">
+                    <a href="https://facebook.com/stc.primo/"><img class="social-icons" src="assets/icons/facebook.png"></a>
+                    <a><img class="social-icons" src="assets/icons/instagram.png"></a>
+                    <a><img class="social-icons" src="assets/icons/tiktok.png"></a>
+                    <a><img class="social-icons" src="assets/icons/github.png"></a>
+                    <a><img class="social-icons" src="assets/icons/gmail.png"></a>
+                </div>
+            </div>
+        </section>
+            
+        
+    </main>
 
-
-
-  <section id="skills" class="section fade-in">
-    <div class="container">
-      <h2>Skills & Certifications</h2>
-      <div class="skills-grid">
-        <div class="skills-list">
-          <h3>Programming Languages & Tools</h3>
-          <ul>
-            <li>C#</li>
-            <li>HTML / CSS / JavaScript</li>
-            <li>Java (Android)</li>
-            <li>Firebase</li>
-            <li>Git & GitHub</li>
-            <li>SQLite</li>
-          </ul>
+    <footer>
+        <div class="container">
+            <a class="owner" href="https://facebook.com/stc.primo/" target="_blank">&COPY; Jeylo Tangaro Baoit</a>
         </div>
-        <div class="certifications-list">
-          <h3>Certifications</h3>
-          <ul>
-            <li>
-              <strong>Computer System Servicing NC II</strong><br>
-              TESDA @ International School of Asia and the Pacific (ISSAP)<br>
-              <em>Date:</em> February 16, 2024<br>
-              <em>Cert No:</em> 24021502001626<br>
-              <a href="https://t2mis.tesda.gov.ph/Learners/S/6B004200630059004F00700061004D004200760062005A004700770069006100590038007900560032006600360069005A00460052004D0034006C00510050002F003700320039005600730052006E0076002F0059003D00?fbclid=IwY2xjawLZe5JleHRuA2FlbQIxMABicmlkETEyZG1raHZBVUpKcVJKQjVpAR6_fyLhWpRqlduSgfIxwCwjY2Xu5tRAArMqbY3aUbbLY1AOxPVbzNbgmm4j_g_aem_vuRbfKjXnw1ZI29OWsIGGg" target="_blank">
-                View Certification
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <section id="projects" class="section fade-in">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>QR Attendance App</h3>
-          <p>Offline-ready student scanner with SQLite and Firebase sync.</p>
-          <a href="https://github.com/NightCode101/QR_Attendance_Control" class="btn small" target="_blank">View Code</a>
-        </div>
-        <div class="card">
-          <h3>QR Generator Tool</h3>
-          <p>Custom QR generator for QR attendance system.</p>
-          <a href="https://github.com/NightCode101/CICS-QR-Generator" class="btn small" target="_blank">View Code</a>
-          <a href="https://cics-qrgenerator.site/" class="btn small" target="_blank">Visit Site</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section fade-in">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Jeylo Tangaro Baoit</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

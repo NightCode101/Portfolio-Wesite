@@ -1,3 +1,14 @@
+// For Toggle menu when  in small screens like phone
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav-btn");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
+});
+
+
 // For active button when clicking the navigation bar
 document.querySelectorAll(".nav-btn a").forEach(link => {
   if (link.href === window.location.href) {
